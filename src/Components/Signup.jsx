@@ -19,12 +19,12 @@ const Signup = () => {
         </h3>
         <div className="flex items-center justify-between gap-4 w-full mt-5 sm:flex-row flex-col">
           <input
-            type="email"
+            type="text"
             placeholder="First name"
             className="py-3 px-4 border focus:outline-blue-500 border-gray-300  rounded-lg w-full"
           />
           <input
-            type="email"
+            type="text"
             placeholder="Last name"
             className="py-3 px-4 border focus:outline-blue-500 border-gray-300  rounded-lg w-full"
           />
@@ -32,12 +32,12 @@ const Signup = () => {
 
         <div className="flex items-center justify-between gap-4 w-full sm:flex-row flex-col">
           <input
-            type="email"
+            type="number"
             placeholder="Phone number"
             className="py-3 px-4 border focus:outline-blue-500 border-gray-300  rounded-lg w-full"
           />
           <input
-            type="email"
+            type="number"
             placeholder="Zip code"
             className="py-3 px-4 border focus:outline-blue-500 border-gray-300  rounded-lg w-full"
           />
